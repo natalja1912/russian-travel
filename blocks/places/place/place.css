@@ -1,0 +1,30 @@
+
+.place{
+    display: grid;
+    grid-template-columns: 460px auto;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 24px 40px;
+    justify-items: start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .place{
+        grid-template-columns: 440px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place{
+        grid-template-columns: 340px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(auto-fit, auto);
+    }
+}
