@@ -1,0 +1,46 @@
+.lead__title{
+    box-sizing: border-box;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__title{
+        width: 720px;
+        font-size: 96px;
+        line-height: 1.04;
+        text-align: center;
+        margin: 56px 0 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lead__title{
+    
+        font-size: 96px;
+        line-height: 1.04;
+        text-align: center;
+        margin: 48px 24px 32px;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__title{
+     
+        text-align: center;
+        margin: 0;
+        font-size: 40px;
+        line-height: 1.1;
+        margin: 48px 16px 16px;
+        
+        
+    }
+}
+
+
+
