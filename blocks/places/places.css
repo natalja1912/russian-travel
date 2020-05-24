@@ -3,6 +3,7 @@
 @import url(./place/__title/place__title.css);
 @import url(./place/__image/place__image.css);
 @import url(./place/__website/place__website.css);
+@import url(./place/__paragraphs/place__paragraphs.css);
 @import url(./place/__paragraph/place__paragraph.css);
 
 .places{

@@ -1,0 +1,9 @@
+@import url(./__background/cover__background.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+@media screen and (min-width: 1025px){
+    .cover{
+    margin: 0 48px 0;
+    }
+}

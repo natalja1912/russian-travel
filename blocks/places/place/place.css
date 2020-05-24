@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 460px auto;
     grid-template-rows: repeat(3, auto);
-    grid-gap: 24px 40px;
+    grid-gap: 48px 40px;
     justify-items: start;
     margin: 0;
     padding: 0;
