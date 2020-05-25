@@ -12,6 +12,10 @@
    
 }
 
+.place__website_link:hover{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 425px) {
     .place__website_link{
      

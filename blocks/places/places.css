@@ -7,27 +7,30 @@
 @import url(./place/__paragraph/place__paragraph.css);
 
 .places{
+    max-width: 984px;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 0 148px 0;
     margin-top: 92px;
 
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .places{
         padding: 0 48px 0;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 728px) {
     .places{
         padding: 0 24px 0;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
     .places{
+        margin-top: 64px;
         padding: 0;
     }
 }
+
