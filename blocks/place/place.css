@@ -1,5 +1,12 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__website/place__website.css);
+@import url(./__paragraphs/place__paragraphs.css);
+@import url(./__paragraph/place__paragraph.css);
 
 .place{
+    max-width: 984px;
+    margin: auto;
     display: grid;
     grid-template-columns: 460px auto;
     grid-template-rows: repeat(2, auto);
