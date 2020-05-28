@@ -3,6 +3,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__links/header__links.css);
 @import url(./__link/header__link.css);
+@import url(./__lang-link/_type/header__lang-link_type_active.css);
 
 
 .header {
