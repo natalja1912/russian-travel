@@ -3,7 +3,7 @@
     padding: 0;
     margin-block-start: 0;
     margin-block-end: 0;
-    font-family: Inter;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -11,6 +11,10 @@
     color: #FFFFFF;
     margin-bottom: 24px;
     
+}
+
+.place__paragraph:last-child{
+    margin-bottom: 0;
 }
 
 
@@ -26,3 +30,4 @@
     .place__paragraph{
         padding: 0 16px 0;
     }
+}

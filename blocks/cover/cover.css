@@ -1,4 +1,4 @@
-
+@import url(./__link/cover__link.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
@@ -26,11 +26,14 @@
     background: #2A2C2F;
     opacity: 0.3;
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: 2;
 }
 
 .cover:hover::before{
     opacity: 0.8;
+    transition: opacity 0.4s linear;
 }
 
 @media screen and (max-width: 1024px) {
@@ -39,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
     .cover{
         min-height: 480px;
         margin-top: 88px;

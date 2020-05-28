@@ -1,0 +1,18 @@
+.lead__image-group{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__image-group{
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-group{
+        padding: 0;
+    }
+}

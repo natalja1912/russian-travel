@@ -1,9 +1,39 @@
 .photo-grid__item{
-    max-width: 352px;
+    
     width: 100%;
+    max-width: 352px;
     height: 100%;
+    min-height: 213px;
     margin: 0;
     padding: 0;
-    object-fit: contain;
+    object-fit: cover;
    
+}
+
+@media screen and (max-width: 1279px) {
+    .photo-grid__item{
+        max-width: 300px;
+        min-height: 225px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__item{
+        max-width: 300px;
+        min-height: 225px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__item{
+        max-width: 352px;
+        min-height: 264px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .photo-grid__item{
+        max-width: 288px;
+        min-height: 216px;
+    }
 }
