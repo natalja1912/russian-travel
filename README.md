@@ -13,10 +13,12 @@
 
 
 ## Технологии
-В проекте использованы следующие свойства html и css
+В проекте использованы следующие свойства html, css, js
  * Grid Layout
  * ссылки
  * медиазапросы
+ * js классы
+ * webpack
 
 ##Ссылка на сайт github pages (https://natalja1912.github.io/russian-travel/)
 

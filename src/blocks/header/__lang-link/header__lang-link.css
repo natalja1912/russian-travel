@@ -1,15 +1,15 @@
 
-
-
 .header__lang-link{
     margin: 0;
     padding: 0;
     color:  #FFFFFF;
+    background-color: #2A2C2F;
     text-decoration: none;
     font-family: "Inter", Arial, sans-serif;
     font-weight: normal;
     font-size: 24px;
     line-height: 1.17;
+    border: none;
    
 }
 
@@ -19,6 +19,11 @@
     opacity: 0.8;
     transition: opacity 0.4s linear;
 }
+
+.header__lang-link:active{
+    border: none;
+}
+
 
 @media screen and (max-width: 425px) {
     .header__lang-link{
